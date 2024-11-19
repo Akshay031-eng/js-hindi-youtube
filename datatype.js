@@ -23,3 +23,27 @@ const myfunction =function(){
 //function
 
 console.log(typeof  myfunction)
+
+
+//+++++++++++++++++++++++++++++++++
+
+// stack (primitive )    heap (non primitive)
+// stack ka andar hma copy mil thi hai
+let myname =  "nikhil kumar"
+let anothername = myname
+anothername = "chaiwala nikhil"
+console.log(myname)
+console.log(anothername)
+
+// heap kandar reference mil ta hai
+
+let userone ={
+    email : "akshay@123.com"
+
+}
+ let usertwo = userone
+ 
+ usertwo.email = "hitesydf@.com"
+
+ console.log(userone.email)
+ console.log(usertwo.email)
