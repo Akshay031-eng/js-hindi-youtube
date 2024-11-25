@@ -35,6 +35,7 @@ const myn1 =  myarr.splice(1,3)///it print all index give jasa 1,2,3
 console.log("C",myarr);// it print only 1,0 because splice then print only left number
 
 console.log(myn1);
+new 
 
 
 
