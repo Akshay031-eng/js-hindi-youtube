@@ -18,6 +18,7 @@ let createdate = new Date(2024,0,21) // monthstart in javascript with 0
 
 let timestamp  = Date.now()
 console.log(timestamp);
+
 console.log(createdate.getTime());
 //for seconds
 
