@@ -46,7 +46,7 @@
 const tinder = new Object()// singleton 
 tinder.id = "nepal"
 tinder.name = "akshay"
-console.log(tinder);
+// console.log(tinder);
 
 const public = {
     id :" naman",
@@ -64,7 +64,7 @@ const ob1 ={1: "e",2: "h"}
 const ob2 ={4: "f",3: "h"}
 // const ob3 =  Object.assign({} , ob1, ob2)
 const ob3 = {...ob1, ...ob2}
-console.log(ob3);
+// console.log(ob3);
 
 const user = [
     {
@@ -81,11 +81,41 @@ class: "foutth",
 ]
 
 user[1].class
-console.log(Object.keys(tinder));
-console.log(Object.values(tinder));
-console.log(Object.entries(tinder));
+// console.log(Object.keys(tinder));
+// console.log(Object.values(tinder));
+// console.log(Object.entries(tinder));
+
+// ************ DE  Structure of the qbject ...........................
+
+const course ={
+    coursename : "jay hind",
+    fee : "1324",
+    courseteacher : "sarvesh"
+     
+
+}
+const {courseteacher :instructor} = course
+console.log(instructor);
 
 
+// node .............
+const navbar = ({company}) => {
 
+}
+navbar (company = "akshay")
+
+// API : api is syntax like object but it is called jasan
+//keys and value both value are the string in jasan   
+// {
+//     "name" : "akshay",
+//     "id" : "jaynxb",
+//     "price" : "free" 
+// }
+
+[
+    {},
+    {},
+    {}
+]
 
 
