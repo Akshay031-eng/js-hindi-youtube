@@ -40,8 +40,15 @@ for (let index = 1; index <=20; index++) {
 for (let index = 1; index <=20; index++) {
     const element = index;
     if(index == 5){
-        console.log(`5 is detected`);
+        // console.log(`5 is detected`);
         continue
     }
-    console.log(`the value os i is ${index}`);
+    // console.log(`the value os i is ${index}`);
+}
+
+// while loop****************
+let a = 0
+while (a <=10) {
+   console.log(`the value of the is ${a}`);
+   a =a+2 
 }
