@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshay with code </title>
+</head>
+<body style="background-color: black; color: aqua;">
+    <ul>
+        <li class="language">
+            javascript
+        </li>
+    </ul>
+</body>
+<script>
+    function addlanguage (langname){
+        const list =  document.createElement('li')
+        list.innerHTML= `${langname}`
+        document.querySelector('.language').
+        appendChild(list)
+        
+    }
+    addlanguage("PYthon")
+    addlanguage("JAVA")
+
+    //  function 
+    function addiolanguage(langname){
+        const list = document.createElement(li)
+        list.appendChild(document.createTextNode(langname))
+        document.querySelector('.language').appendChild(list)
+    }
+    addiolanguage('Ruby')
+    
+</script>
+</html>
